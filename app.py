@@ -419,7 +419,7 @@ def main():
     with col1:
         st.markdown("""
         <div class="feature-card">
-            <div style="font-size: 2rem; color: #3b82f6; margin-bottom: 0.5rem;">🤖</div>
+            <div style="font-size: 2rem; color: red; margin-bottom: 0.5rem;">🤖</div>
             <h5>LLaMA-3.3-70B</h5>
             <p>Advanced language model for intelligent analysis</p>
         </div>
@@ -600,6 +600,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
